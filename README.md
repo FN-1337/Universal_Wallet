@@ -101,8 +101,7 @@ The following dependencies are required for this project to run properly.
 
 - When done properly, the final object should look something like this (there are only 3 children each in this image):
 
-  ![wallet-object](Screenshots/derive_wallets.png)
-
+  ![wallet-object](Screenshots/derive_wallets.PNG
 - You should now be able to select child accounts (and thus, private keys) by accessing items in the `coins` dictionary like so: `coins[COINTYPE][INDEX]['privkey']`.
 
 ### 5. Linking the transaction signing libraries
@@ -170,7 +169,7 @@ The following dependencies are required for this project to run properly.
 
     - Fund a `BTCTEST` address using [this testnet faucet](https://testnet-faucet.mempool.co/).
 
-    ![btc-test](Screenshots/btcfaucet.png)
+    ![btc-test](Screenshots/btcfaucet.PNG)
 
     - Use a [block explorer](https://tbtc.bitaps.com/) to watch transactions on the address.
 
@@ -178,7 +177,7 @@ The following dependencies are required for this project to run properly.
     
     - Screenshot the confirmation of the transaction like so:
 
-      ![btc-test](Screenshots/btctx.png)
+      ![btc-test](Screenshots/btctx.PNG)
 
   - **Local PoA Ethereum transaction**
 
@@ -203,7 +202,7 @@ The following dependencies are required for this project to run properly.
     - Send a transaction from the pre-funded address within the wallet to another, then copy the `txid` into
       MyCrypto's TX Status, and screenshot the successful transaction like so:
 
-      ![eth-test](Screenshots/ethtx.png)
+      ![eth-test](Screenshots/ethtx.PNG)
 ### Code used to run Transactions
 ### BTCTESTNET
 btc_acc = priv_key_to_account(BTCTEST,btc_PrivateKey) 
