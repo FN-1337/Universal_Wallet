@@ -101,7 +101,7 @@ The following dependencies are required for this project to run properly.
 
 - When done properly, the final object should look something like this (there are only 3 children each in this image):
 
-  ![wallet-object](Screenshots/derive_wallets.PNG
+  ![wallet-object](Screenshots/derive_wallets.PNG)
 - You should now be able to select child accounts (and thus, private keys) by accessing items in the `coins` dictionary like so: `coins[COINTYPE][INDEX]['privkey']`.
 
 ### 5. Linking the transaction signing libraries
