@@ -175,7 +175,7 @@ The following dependencies are required for this project to run properly.
 
     - Send a transaction to another testnet address (either one of your own, or the faucet's).
     
-    - Screenshot the confirmation of the transaction like so:
+    - Screenshot the confirmation of the transaction:
 
       ![btc-test](Screenshots/btctx.PNG)
 
